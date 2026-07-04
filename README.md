@@ -20,10 +20,6 @@
 * Configuration
 * Testing
 * Deployment
-* Contributing
-* License
-* Acknowledgments
-
 ---
 
 # ✨ Features
