@@ -1,6 +1,6 @@
 # 🎯 Sentiment Analyzer Pro
 
-> **An AI-powered sentiment analysis platform that transforms customer feedback into actionable insights using Natural Language Processing.**
+> **An AI-powered sentiment analysis platform that transforms customer feedback into actionable insights using Natural Language Processing (NLP).**
 
 ![Python](https://img.shields.io/badge/Python-3.9+-3776AB?logo=python\&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-2.0+-000000?logo=flask\&logoColor=white)
@@ -20,11 +20,13 @@
 * Configuration
 * Testing
 * Deployment
+* Support
+
 ---
 
 # ✨ Features
 
-## Core Features
+## 🚀 Core Features
 
 * ⚡ Real-time sentiment analysis
 * 😊 Positive, Negative, and Neutral classification
@@ -33,33 +35,33 @@
 * 💾 Export results to CSV
 * 📱 Fully responsive design
 
-## Advanced Features
+## 🧠 Advanced Features
 
-* 🧠 AI-powered sentiment detection using NLP
-* 📈 Statistical sentiment insights
-* 🎯 Intelligent product recommendation system
-* 🔍 Keyword extraction
-* 📊 Individual review analysis
-* 🔄 Instant processing and feedback
+* AI-powered sentiment detection using NLP
+* Statistical sentiment insights
+* Intelligent recommendation system
+* Keyword extraction
+* Individual review analysis
+* Instant processing and feedback
 
 ---
 
 # 🎯 Use Cases
 
-## For Businesses
+## 🏢 For Businesses
 
 * Customer feedback analysis
 * Product review monitoring
 * Brand reputation tracking
 * Customer satisfaction measurement
 
-## For Individuals
+## 👤 For Individuals
 
 * Product review summarization
 * Purchase decision support
 * Opinion analysis
 
-## For Developers
+## 👨‍💻 For Developers
 
 * NLP experimentation
 * API integration
@@ -69,14 +71,14 @@
 
 # 🚀 Installation
 
-## Clone Repository
+## 1️⃣ Clone Repository
 
 ```bash
 git clone https://github.com/krishnapopat130324-art/sentiment-analyzer.git
 cd sentiment-analyzer
 ```
 
-## Create Virtual Environment
+## 2️⃣ Create Virtual Environment
 
 ### Windows
 
@@ -92,13 +94,13 @@ python3 -m venv venv
 source venv/bin/activate
 ```
 
-## Install Dependencies
+## 3️⃣ Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-## Run Application
+## 4️⃣ Run the Application
 
 ```bash
 python app.py
@@ -156,20 +158,15 @@ http://localhost:5000
 ```text
 sentiment-analyzer/
 │
-├── app.py
-├── requirements.txt
-├── README.md
-├── .gitignore
-├── run.bat
+├── app.py                 # ✅ Main application (contains all HTML/CSS)
+├── requirements.txt       # ✅ Dependencies
+├── README.md              # ✅ Documentation
+├── .gitignore             # ✅ Git ignore rules
+├── run.bat                # ✅ Windows launcher (optional)
 │
-├── templates/
-│   └── index.html
+├── .venv/                 # ✅ Virtual environment (auto-created)
 │
-├── static/
-│   ├── style.css
-│   └── script.js
-│
-└── data/
+└── data/                  # ✅ Optional sample data
     └── sample_reviews.csv
 ```
 
@@ -192,23 +189,26 @@ THRESHOLD_NEGATIVE=-0.1
 
 # 🧪 Sample Test Cases
 
-## Positive Reviews
+## 😊 Positive Reviews
 
 * Amazing product!
 * Highly recommended.
 * Best purchase ever.
+* Excellent experience overall.
 
-## Negative Reviews
+## 😠 Negative Reviews
 
 * Terrible quality.
 * Waste of money.
 * Very disappointing.
+* Would not recommend.
 
-## Neutral Reviews
+## 😐 Neutral Reviews
 
 * Average product.
 * Nothing special.
 * Acceptable performance.
+* Works as expected.
 
 ---
 
@@ -223,9 +223,9 @@ python app.py
 
 ## PythonAnywhere
 
-* Upload files
+* Upload project files
 * Install dependencies
-* Configure Flask app
+* Configure Flask application
 * Deploy
 
 ## Hugging Face Spaces
@@ -234,8 +234,26 @@ Supports Docker deployment for free hosting.
 
 ---
 
+# 📊 Example Output
+
+| Review                       | Sentiment   |
+| ---------------------------- | ----------- |
+| Amazing product!             | 😊 Positive |
+| Poor quality and overpriced. | 😠 Negative |
+| Average experience overall.  | 😐 Neutral  |
+
+---
+
 # ⭐ Support
 
-If you found this project useful, consider giving it a star on GitHub.
+If you found this project useful, please consider giving it a ⭐ on GitHub.
 
-**Made with ❤️ by Krishna Popat**
+---
+
+# 👨‍💻 Author
+
+**Krishna Popat**
+
+---
+
+## Made with ❤️ using Flask, Python, and NLP
